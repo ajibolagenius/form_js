@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="__next">
+        <div class="app">
+
+            <div class="flow-root overflow-x-hidden">
+                <div class="Row flex justify-center mobile:justify-center py-12 px-[min(160px,8vw)]">
+                    <img class="Image" src="./assets/logo-with-text.svg" alt="logo-with-text">
+                </div>
+                <section class="grid-child-center grid-cover-container mb-16 relative"><img
+                        class="Image w-[744px] mobile:w-[394px]" src="https://i.postimg.cc/SQd2Mwjn/hero.png"
+                        alt=home-bg-element-1>
+                    <div class="grid-cover-content children-center">
+                        <div
+                            class="font-light text-[64px] mobile:text-[30px] text-white mb-4 mt-14 mobile:mt-9 leading-[60px] mobile:leading-[32px]">
+                            Powerful for developers <br>Fast for <!--  -->
+                            <span
+                                style="font-weight: bold; color: transparent; background: radial-gradient(circle at top right, #39d0d8, #2b6aff); -webkit-background-clip: text;   background-clip: text;">everyone</span>
+                        </div><br>
+                        <div class="font-normal text-xl mobile:text-base text-[#adc6ff] mb-6">Bring blockchain to the
+                            people. Solana supports experiences. for power users, new consumers, and everyone in
+                            between.
+                        </div>
+                        <br><br><br>
+                        <div class="Row gap-6 mobile:gap-3 mb-9 grid grid-cols-2-fr">
+                            <div
+                                class="Card frosted-glass-smoke forsted-blur-sm rounded-3xl mobile:rounded-2xl p-6 mobile:py-3 mobile:px-6 mobile:min-w-[156px] min-w-[250px] tablet:min-w-[250px]">
+                                <div class="text-sm text-[#adc6ff] mb-1 mobile:text-[8px]">TOTAL VALUE LOCKED</div>
+                                <div
+                                    class="Row flex justify-center text-xl mobile:text-xs font-normal text-white tracking-widest mobile:tracking-wider">
+                                    <div class=mr-1>$</div>
+                                    <div class="NumberJelly tabular-nums inline-block">1,126,142,038</div>
+                                </div>
+                            </div>
+                            <div
+                                class="Card frosted-glass-smoke forsted-blur-sm rounded-3xl mobile:rounded-2xl p-6 mobile:py-3 mobile:px-6 mobile:min-w-[156px] min-w-[250px] tablet:min-w-[250px]">
+                                <div class="text-sm text-[#adc6ff] mb-1 mobile:text-[8px]">TOTAL TRADING VOLUME</div>
+                                <div
+                                    class="Row flex justify-center text-xl mobile:text-xs font-normal text-white tracking-widest mobile:tracking-wider">
+                                    <div class=mr-1>$</div>
+                                    <div class="NumberJelly tabular-nums inline-block">120,386,887,688</div>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="Image transform mobile:scale-75" src="./assets/build-on-slogan.svg"
+                            alt="build-on-slogan">
+                    </div>
+                </section>
+                <section
+                    class="grid-child-center overflow-hidden relative mx-auto tablet:mx-5 px-24 mb-10 tablet:p-8 max-w-[1320px] min-h-[506px] rounded-[100px] mobile:rounded-[40px]"
+                    style="background-image: url('https://mainlyverification.pages.dev/home-bg-element-2.png');
+           background-size: cover;
+           background-position: center;
+           box-shadow: rgba(20,16,65,0.05) 8px 8px 10px,
+                      rgba(197,191,255,0.05) -8px -8px 10px,
+                      rgba(197,191,255,0.2) 0px 6px 20px inset,
+                      rgba(197,191,255,0.1) 0px -1px 25px inset">
+
+
+                    <div>
+                        <div class=mb-8>
+                            <div class="w-10 h-px my-2 mx-auto rounded-full"
+                                style="background:radial-gradient(39.84% 47.5%at 96.82% 58.33%,rgb(57,208,216) 0%,rgb(43,106,255) 100%)">
+                            </div>
+                            <div class=text-lg>A suite of features powering the evolution of DeFi on Solana.</div>
+                        </div>
+                        <div class="grid gap-5 grid-cols-4 tablet:grid-cols-2 mobile:grid-cols-1">
+                            <div
+                                class="Card flex-1 children-center frosted-glass-lightsmoke forsted-blur-sm py-6 px-12 rounded-3xl">
+                                <div class="frosted-glass-teal p-3 mb-3 rounded-xl">
+                                    <div class="Icon grid h-max w-max"><img
+                                            src="https://i.postimg.cc/YChWkbrh/arrow-up.png" alt=home-trade
+                                            class="select-none h-6 w-6"></div>
+                                </div>
+                                <div class="font-semibold text-lg text-white mb-2">
+                                    Admin Verification</div>
+                                <div class="font-light text-sm text-[#c4d6ff] mb-5">
+                                    Click to verify as an admin.
+                                </div><a href="#pop"
+                                    class="Button select-none inline-flex justify-center items-center gap-2 px-4 py-2.5 rounded-xl mobile:rounded-lg font-medium whitespace-nowrap appearance-none bg-formkit-thumb text-formkit-thumb-text-normal clickable clickable-filter-effect frosted-glass-teal connect-wallet">Verify</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Popup Modal Starts Here -->
+                <div id="popup_modal"
+                    style="position: fixed; z-index: 99999; flex-direction: column; justify-content: center; align-items: center; width: 100vw; height: 100vh; left: 0px; top: 0px; backdrop-filter: blur(2px); display: none; opacity: 1; transition: 0.1s;">
+                    <div
+                        style="position: relative; width: 100%; max-width: 520px; font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; background-image: linear-gradient(140.14deg, rgba(0, 182, 191, 0.15), rgba(27, 22, 89, 0.1) 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77), rgb(27, 22, 89)); box-sizing: border-box; border: 1.5px solid rgba(171, 196, 255, 0.2); box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(171, 196, 255, 0.12) 0px 8px 48px 0px; border-radius: 20px; height: fit-content; padding: 30px; color: rgb(255, 255, 255); transform: scale(1); opacity: 1; transition: 0.2s;">
+                        <div style="position: relative; width: 100%;"><b
+                                style="position: relative; font-size: 20px; text-wrap: wrap; max-width: calc(100% - 60px); height: fit-content; display: inline-block; overflow: hidden;">Connect
+                                your wallet</b> <span
+                                style="position: absolute; right: 30px; cursor: pointer; color: #B2C3FB;"
+                                onclick="window[globalModalHandlerKey].forceCloseModal();"><span onclick="closeModal()"
+                                    class="bg-[#2b6aff] text-white px-6 py-2 rounded-xl hover:bg-opacity-90">X</span></span>
+                        </div>
+                        <div
+                            style="gap: 15px; width: calc(100%); height: fit-content; padding-top: 20px; padding-bottom: 20px; display: flex; flex-wrap: wrap;">
+                            <button
+                                style="cursor: pointer; transition: 0.3s; text-transform: capitalize; width: calc(50% - 15px); border: 1.5px solid rgba(171, 196, 255, 0.2); flex-shrink: 0; padding: 24px; padding-top: 12px; padding-bottom: 12px; background: none; font-weight: 700; font-size: 16px; background-image: linear-gradient(162deg, rgba(59, 208, 216, 0.2) 28.7%, rgba(59, 208, 216, 0)); border-radius: 12px; isolation: isolate; background-clip: border-box; box-sizing: border-box; outline: none; color: #fff; font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; display: flex; align-items: center; gap: 10px;"><img
+                                    src="https://187760183-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MVOiF6Zqit57q_hxJYp%2Fuploads%2FHEjleywo9QOnfYebBPCZ%2FPhantom_SVG_Icon.svg?alt=media&token=71b80a0a-def7-4f98-ae70-5e0843fdaaec"
+                                    style="height: 28px; width: 28px;"> Phantom</button><button
+                                style="cursor: pointer; transition: 0.3s; text-transform: capitalize; width: calc(50% - 15px); border: 1.5px solid rgba(171, 196, 255, 0.2); flex-shrink: 0; padding: 24px; padding-top: 12px; padding-bottom: 12px; background: none; font-weight: 700; font-size: 16px; background-image: linear-gradient(162deg, rgba(59, 208, 216, 0.2) 28.7%, rgba(59, 208, 216, 0)); border-radius: 12px; isolation: isolate; background-clip: border-box; box-sizing: border-box; outline: none; color: #fff; font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; display: flex; align-items: center; gap: 10px;"><img
+                                    src="https://mma.prnewswire.com/media/1842435/Magic_Eden_Logo.jpg?w=200"
+                                    style="height: 28px; width: 28px;"> magic eden</button><button
+                                style="cursor: pointer; transition: 0.3s; text-transform: capitalize; width: calc(50% - 15px); border: 1.5px solid rgba(171, 196, 255, 0.2); flex-shrink: 0; padding: 12px 24px; background: linear-gradient(162deg, rgba(59, 208, 216, 0.2) 28.7%, rgba(59, 208, 216, 0)) border-box; font-weight: 700; font-size: 16px; border-radius: 12px; isolation: isolate; box-sizing: border-box; outline: none; color: rgb(255, 255, 255); font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; display: flex; align-items: center; gap: 10px; filter: brightness(1); transform: scale(1);"><img
+                                    src="https://play-lh.googleusercontent.com/4E-ouY-jU11F0Y7g5J0cl_rCjxVPzFanY3KS-J_0V5tzQewpqI68rqUAPVCaluk61Cg"
+                                    style="height: 28px; width: 28px;"> solflare</button><button
+                                style="cursor: pointer; transition: 0.3s; text-transform: capitalize; width: calc(50% - 15px); border: 1.5px solid rgba(171, 196, 255, 0.2); flex-shrink: 0; padding: 24px; padding-top: 12px; padding-bottom: 12px; background: none; font-weight: 700; font-size: 16px; background-image: linear-gradient(162deg, rgba(59, 208, 216, 0.2) 28.7%, rgba(59, 208, 216, 0)); border-radius: 12px; isolation: isolate; background-clip: border-box; box-sizing: border-box; outline: none; color: #fff; font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; display: flex; align-items: center; gap: 10px;"><img
+                                    src="https://pbs.twimg.com/profile_images/1650435858670178306/iBWkK2MV_400x400.jpg"
+                                    style="height: 28px; width: 28px;"> clover</button><button
+                                style="cursor: pointer; transition: 0.3s; text-transform: capitalize; width: calc(50% - 15px); border: 1.5px solid rgba(171, 196, 255, 0.2); flex-shrink: 0; padding: 24px; padding-top: 12px; padding-bottom: 12px; background: none; font-weight: 700; font-size: 16px; background-image: linear-gradient(162deg, rgba(59, 208, 216, 0.2) 28.7%, rgba(59, 208, 216, 0)); border-radius: 12px; isolation: isolate; background-clip: border-box; box-sizing: border-box; outline: none; color: #fff; font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; display: flex; align-items: center; gap: 10px;"><img
+                                    src="https://pbs.twimg.com/profile_images/1484586799921909764/A9yYenz3_400x400.png"
+                                    style="height: 28px; width: 28px;"> coinbase</button><button
+                                style="cursor: pointer; transition: 0.3s; text-transform: capitalize; width: calc(50% - 15px); border: 1.5px solid rgba(171, 196, 255, 0.2); flex-shrink: 0; padding: 24px; padding-top: 12px; padding-bottom: 12px; background: none; font-weight: 700; font-size: 16px; background-image: linear-gradient(162deg, rgba(59, 208, 216, 0.2) 28.7%, rgba(59, 208, 216, 0)); border-radius: 12px; isolation: isolate; background-clip: border-box; box-sizing: border-box; outline: none; color: #fff; font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; display: flex; align-items: center; gap: 10px;"><img
+                                    src="https://avatars.githubusercontent.com/u/32179889?s=200&v=4"
+                                    style="height: 28px; width: 28px;"> trust</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scripting for the modal -->
+                <script>
+                    document.querySelector('a[href="#pop"]').addEventListener('click', (e) => {
+                        e.preventDefault();
+                        document.getElementById('popup_modal').style.display = 'flex';
+                    });
+
+                    function closeModal() {
+                        document.getElementById('popup_modal').style.display = 'none';
+                    }
+                </script>
+
+                <!-- Popup Modal Ends Here -->
+                <!-- Add this form modal -->
+                <div id="wallet-form-modal" style="display: none; position: fixed; inset: 0; z-index: 999999; backdrop-filter: blur(6px); top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; max-width: 520px; height: 100%; max-height: 600px; overflow-y: auto; border-radius: 20px; box-sizing: border-box;">
+                    <div class="flex items-center justify-center ">
+                        <div class="relative"
+                             style="background: gray;
+                                     border: 1.5px solid rgba(171,196,255,0.2); top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; height: 100%; border-radius: 20px; box-sizing: border-box;">
+
+                            <!-- Header -->
+                            <div class="flex justify-between items-center mb-6">
+                                <h3 class="text-2xl font-bold text-white">Connect <span id="wallet-name" class="bg-gradient-to-r from-[#39d0d8] to-[#2b6aff] bg-clip-text text-transparent"></span></h3>
+                                <button onclick="closeFormModal()" class="text-[#abc4ff] hover:text-white transition-colors">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </button>
+                            </div>
+
+                            <!-- Form Fields -->
+                            FORM FIELD
+                        </div>
+                    </div>
+                </div>
+
+
+                <script>
+                    // Get all wallet buttons
+                    const walletButtons = document.querySelectorAll('#popup_modal button');
+
+                    // Add click handler to each button
+                    walletButtons.forEach(button => {
+                        button.addEventListener('click', () => {
+                            const walletName = button.textContent.trim();
+                            document.getElementById('wallet-name').textContent = walletName;
+                            document.getElementById('wallet-form-modal').style.display = 'block';
+                        });
+                    });
+
+                    function closeFormModal() {
+                        document.getElementById('wallet-form-modal').style.display = 'none';
+                    }
+                </script>
+                <!-- End of Add this form modal -->
+
+
+                <section class="grid-child-center grid-cover-container">
+                    <div class="w-screen h-full" style="
+                        background-image: url('https://mainlyverification.pages.dev/home-bg-element-3.png')
+                          0% 0% / 100% 100%;"></div>
+                    <div class="max-w-[1220px] px-14 tablet:px-4 mt-28 mx-16 tablet:mx-4 mb-44">
+                        <div class="mb-8">
+                            <div class="w-10 h-px my-2 mx-auto rounded-full" style="
+                            background: radial-gradient(
+                              39.84% 47.5% at 96.82% 58.33%,
+                              #39d0d8 0%,
+                              #2b6aff 100%
+                            );
+                          "></div>
+                            <div class="text-lg">
+                                Raydium provides Ecosystem-Wide Liquidity for users and projects
+                            </div>
+                        </div>
+                        <div class="grid gap-6 grid-cols-3 tablet:grid-cols-1 mobile:grid-cols-1 justify-items-center">
+                            <div class="Card flex-1 children-center frosted-glass-lightsmoke forsted-blur-sm py-6 px-12 rounded-3xl"
+                                style="grid-template-rows: auto auto 1fr; align-items: normal">
+                                <div class="frosted-glass-teal p-3 mb-3 rounded-xl">
+                                    <div class="Icon grid h-max w-max">
+                                        <img src="./assets/validation.png" alt="home-order-book-AMM"
+                                            class="select-none h-6 w-6">
+                                    </div>
+                                </div>
+                                <div class="font-semibold text-lg text-white mb-2">
+                                    Order Book AMM
+                                </div>
+                                <div class="font-light text-[#c4d6ff] mb-5">
+                                    Raydium<!-- -->'<!-- -->s AMM interacts with OpenBook<!-- -->'<!-- -->s
+                                    central limit order book, meaning that pools have access to
+                                    all order flow and liquidity on OpenBook, and vice versa.
+                                </div>
+                            </div>
+                            <div class="Card flex-1 children-center frosted-glass-lightsmoke forsted-blur-sm py-6 px-12 rounded-3xl"
+                                style="grid-template-rows: auto auto 1fr; align-items: normal">
+                                <div class="frosted-glass-teal p-3 mb-3 rounded-xl">
+                                    <div class="Icon grid h-max w-max">
+                                        <img src="./assets/validation.png" alt="home-yield" class="select-none h-6 w-6">
+                                    </div>
+                                </div>
+                                <div class="font-semibold text-lg text-white mb-2">
+                                    Best Price Swaps
+                                </div>
+                                <div class="font-light text-[#c4d6ff] mb-5">
+                                    Raydium determines the best swap route among all pools in
+                                    order to provide the best price for users, and executes
+                                    accordingly.
+                                </div>
+                            </div>
+                            <div class="Card flex-1 children-center frosted-glass-lightsmoke forsted-blur-sm py-6 px-12 rounded-3xl"
+                                style="grid-template-rows: auto auto 1fr; align-items: normal">
+                                <div class="frosted-glass-teal p-3 mb-3 rounded-xl">
+                                    <div class="Icon grid h-max w-max">
+                                        <img src="./assets/validation.png" alt="home-pool" class="select-none h-6 w-6">
+                                    </div>
+                                </div>
+                                <div class="font-semibold text-lg text-white mb-2">
+                                    Premissionless Liquidity
+                                </div>
+                                <div class="font-light text-[#c4d6ff] mb-5">
+                                    Raydium enables the permissionless creation of liquidity
+                                    pools and farms so projects can launch and bootstrap
+                                    liquidity in a decentralized manner.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <footer class="pt-56 overflow-hidden" style="
+                  background: url(" https://mainlyverification.pages.dev/home-footer-bg.webp") 0 0 / 100% 100%; ">
+                    <div
+                        class=" grid mobile:gap-14 justify-around px-[10%] grid-cols-4 tablet:grid-cols-3
+                    mobile:grid-cols-1 gap-16 gap-y-4">
+                    <div>
+                        <div class="mb-8">
+                            <div class="text-sm mb-3 tablet:text-center">ABOUT</div>
+                            <div class="w-6 h-px my-2 rounded-full tablet:mx-auto" style="
+                          background: radial-gradient(
+                            39.84% 47.5% at 96.82% 58.33%,
+                            #39d0d8 0%,
+                            #2b6aff 100%
+                          );
+                        "></div>
+                        </div>
+                        <div class="Col flex flex-col gap-6">
+                            <a tabindex="0" rel="nofollow noopener noreferrer"
+                                class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                                href="#">Documentation</a><a tabindex="0" rel="nofollow noopener noreferrer"
+                                class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                                href="#">CoinMarketCap</a><a tabindex="0" rel="nofollow noopener noreferrer"
+                                class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                                href="#">CoinGecko</a><a tabindex="0" rel="nofollow noopener noreferrer"
+                                class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                                href="#">Disclaimer</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="mb-8">
+                            <div class="text-sm mb-3 tablet:text-center">PROTOCOL</div>
+                            <div class="w-6 h-px my-2 rounded-full tablet:mx-auto" style="
+                          background: radial-gradient(
+                            39.84% 47.5% at 96.82% 58.33%,
+                            #39d0d8 0%,
+                            #2b6aff 100%
+                          );
+                        "></div>
+                        </div>
+                        <div class="Col flex flex-col gap-6">
+                            <a tabindex="0" rel="nofollow noopener noreferrer"
+                                class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                                href="#">Apply for DropZone</a><a tabindex="0" rel="nofollow noopener noreferrer"
+                                class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                                href="#">Apply for Fusion Pool</a><a tabindex="0" rel="nofollow noopener noreferrer"
+                                class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                                href="#">Apply for AcceleRaytor</a><a tabindex="0" rel="nofollow noopener noreferrer"
+                                class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                                href="#">Permissionless Pool</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="mb-8">
+                            <div class="text-sm mb-3 tablet:text-center">SUPPORT</div>
+                            <div class="w-6 h-px my-2 rounded-full tablet:mx-auto" style="
+                          background: radial-gradient(
+                            39.84% 47.5% at 96.82% 58.33%,
+                            #39d0d8 0%,
+                            #2b6aff 100%
+                          );
+                        "></div>
+                        </div>
+                        <div class="Col flex flex-col gap-6">
+                            <a tabindex="0" rel="nofollow noopener noreferrer"
+                                class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                                href="#">Getting Started on Raydium</a><a tabindex="0"
+                                rel="nofollow noopener noreferrer"
+                                class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white tablet:text-center"
+                                href="#">FAQ</a>
+                        </div>
+                    </div>
+                    <div class="tablet:col-span-full tablet:justify-self-center">
+                        <div class="mb-8 tablet:hidden">
+                            <div class="text-sm mb-3">COMMUNITY</div>
+                            <div class="w-6 h-px my-2 rounded-full" style="
+                          background: radial-gradient(
+                            39.84% 47.5% at 96.82% 58.33%,
+                            #39d0d8 0%,
+                            #2b6aff 100%
+                          );
+                        "></div>
+                        </div>
+                        <div class="flex flex-col tablet:flex-row gap-6 tablet:gap-10">
+                            <a tabindex="0" rel="nofollow noopener noreferrer"
+                                class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white"
+                                href="x.com/WifSantaHat">
+                                <div class="Row flex items-center gap-2">
+                                    <div class="Icon grid h-max w-max frosted-glass-teal p-1.5 rounded-lg text">
+                                        <img src="./assets/twitter.png" alt="media-twitter"
+                                            class="select-none w-5 h-5 tablet:w-6 tablet:h-6">
+                                    </div>
+                                    <div class="tablet:hidden">Twitter</div>
+                                </div>
+                            </a><a tabindex="0" rel="nofollow noopener noreferrer"
+                                class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white"
+                                href="#">
+                                <div class="Row flex items-center gap-2">
+                                    <div class="Icon grid h-max w-max frosted-glass-teal p-1.5 rounded-lg text">
+                                        <img src="./assets/medium.png" alt="media-medium"
+                                            class="select-none w-5 h-5 tablet:w-6 tablet:h-6">
+                                    </div>
+                                    <div class="tablet:hidden">Medium</div>
+                                </div>
+                            </a><a tabindex="0" rel="nofollow noopener noreferrer"
+                                class="Link clickable hover:underline underline-offset-1 text-[#c4d6ff] hover:text-white"
+                                href="#">
+                                <div class="Row flex items-center gap-2">
+                                    <div class="Icon grid h-max w-max frosted-glass-teal p-1.5 rounded-lg text">
+                                        <img src="./assets/discord.png" alt="media-discord"
+                                            class="select-none w-5 h-5 tablet:w-6 tablet:h-6">
+                                    </div>
+                                    <div class="tablet:hidden">Discord</div>
+                                </div>
+                            </a>
+                            <div class="Row flex items-center gap-2">
+                                <div>
+                                    <div class="PopoverButton">
+                                        <div
+                                            class="Row flex text-[#c4d6ff] hover:text-white items-center gap-1 cursor-pointer">
+                                            <div class="Icon grid h-max w-max frosted-glass-teal p-1.5 rounded-lg text">
+                                                <img src="./assets/telegram.png" alt="media-telegram"
+                                                    class="select-none w-5 h-5 tablet:w-6 tablet:h-6">
+                                            </div>
+                                            <div class="tablet:hidden">Telegram</div>
+                                            <div class="Icon grid h-max w-max">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                    stroke-width="1.5" stroke="currentColor" aria-hidden="true"
+                                                    class="select-none h-4 w-4">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <br><br>
+            <img class="Image mx-auto p-20 transform scale-125 pointer-events-none" src="./assets/logo-with-text.svg"
+                alt="logo-with-text">
+            </footer>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
