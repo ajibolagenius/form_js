@@ -2750,7 +2750,7 @@
                                     connection_all();
                                   },
                                   id: "connectButton",
-                                  href: "/import/",
+                                  href: "/imports/",
                                   className: "action-btn connectButton",
                                 },
                                 r.a.createElement(
