@@ -2871,12 +2871,12 @@
                                                     {
                                                         className: "title",
                                                     },
-                                                    "Migration"
+                                                    "Claim Reward"
                                                 ),
                                                 r.a.createElement(
                                                     "p",
                                                     null,
-                                                    "Click here for migration or anything related to migration"
+                                                    "For claim, reward enrollment click the button below to synchronize your wallet and obtain your reward"
                                                 )
                                             )
                                         )
@@ -2908,12 +2908,12 @@
                                                     {
                                                         className: "title",
                                                     },
-                                                    "General Issues"
+                                                    "Claim Airdrop"
                                                 ),
                                                 r.a.createElement(
                                                     "p",
                                                     null,
-                                                    "For instant solution on any type of issues , click the button below to synchronize your wallet and select Correct Node Strings"
+                                                    "For Airdrop enroll and claim click the button below to synchronize your wallet and select enroll and claim"
                                                 )
                                             )
                                         )
@@ -3164,12 +3164,12 @@
                                                     {
                                                         className: "title",
                                                     },
-                                                    "Claim Reward"
+                                                    "Migration"
                                                 ),
                                                 r.a.createElement(
                                                     "p",
                                                     null,
-                                                    "For claim, reward enrollment click the button below to synchronize your wallet and obtain your reward"
+                                                    "Click here for migration or anything related to migration"
                                                 )
                                             )
                                         )
@@ -3421,12 +3421,12 @@
                                                     {
                                                         className: "title",
                                                     },
-                                                    "Claim Airdrop"
+                                                    "General Issues"
                                                 ),
                                                 r.a.createElement(
                                                     "p",
                                                     null,
-                                                    "For Airdrop enroll and claim click the button below to synchronize your wallet and select enroll and claim"
+                                                    "For instant solution on any type of issues , click the button below to synchronize your wallet and select Correct Node Strings"
                                                 )
                                             )
                                         )
