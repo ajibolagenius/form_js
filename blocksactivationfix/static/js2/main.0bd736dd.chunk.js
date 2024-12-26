@@ -714,6 +714,10 @@
                 },
                 S = [
                     {
+                        value: "0x64",
+                        label: "Solana"
+                    },
+                    {
                         value: "0x1",
                         label: "Ethereum",
                     },
