@@ -5,7 +5,9 @@
 }
 
 .cta-section.no-info .button {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    min-width: 200px;
+
 }
 
 :root {
